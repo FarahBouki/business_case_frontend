@@ -6,4 +6,4 @@ COPY requirements.txt /requirements.txt
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-CMD streamlit run app.py --port $PORT
+CMD streamlit run app.py
